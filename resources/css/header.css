@@ -1,11 +1,11 @@
-.navWrapper{
+.headerWrapper{
     background: black;
     border-bottom: solid 1px rgb(53, 53, 53);
     width: 100%;
     height: 5vw;
 }
 
-.nav{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,15 +14,23 @@
     padding-top: 1.8vw;
 }
 
-.nav__logo{
+.header__logo{
 
 }
 
-.nav__functionalities{
+.header__functionalities{
 
 }
 
-.nav__img{
+.headern__searchbar{
+
+}
+
+.header__img{
     width:2.8vw;
     height: 2.8vw;
+}
+
+.header__searchIcon{
+    color: gray;
 }
