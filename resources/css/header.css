@@ -14,10 +14,6 @@
     padding-top: 1.8vw;
 }
 
-.header__logo{
-
-}
-
 .header__functionalities{
     display: flex;
     align-items: center;
@@ -45,15 +41,35 @@
 }
 
 .header__searchIcon{
-    color: gray;
+    color: lightgray;
     padding-right: 8px;
+}
+
+.header__userAndCart{
+    display: flex;
+    align-items: center;
 }
 
 .header__user{
     display: flex;
     align-items: center;
+    padding-left: 40px;
+    color: lightgray;
 }
 
-.header__userIcon{
-    color: gray;
+.header__cart{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    color: lightgray;
+}
+
+.header__aHolder{
+    display: flex;
+    min-width: 8vw;
+    justify-content: space-evenly;
+}
+
+.header__aIcon{
+    color: lightgray;
 }
