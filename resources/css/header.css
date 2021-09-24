@@ -19,11 +19,24 @@
 }
 
 .header__functionalities{
-
+    display: flex;
+    align-items: center;
 }
 
-.headern__searchbar{
+.header__searchbar{
+    background: white;
+    width: 25vw;
+    padding: 0.4vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
 
+.header__input{
+    outline: none;
+    border: 0;
+    background: none;
+    padding-left: 8px;
 }
 
 .header__img{
@@ -32,5 +45,15 @@
 }
 
 .header__searchIcon{
+    color: gray;
+    padding-right: 8px;
+}
+
+.header__user{
+    display: flex;
+    align-items: center;
+}
+
+.header__userIcon{
     color: gray;
 }
