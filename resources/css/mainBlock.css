@@ -1,0 +1,34 @@
+.mainBlock__breadcrumb{
+    display: flex;
+}
+
+.breadcrumb__crumb{
+    padding-left: 0.75%;
+}
+
+.mainBlock__content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 96.5%;
+    padding-top: 0.75%;
+}
+
+.mainBlockContent__aside{
+    height: 100%;
+    width: 24%;
+}
+
+.mainBlockContent__content{
+    height: 100%;
+    width: 50%;
+}
+
+.mainBlockContent__section{
+    height: 100%;
+    width: 24%;
+}
+
+.mainBlockContent__h2{
+    font-size: 1.2em;
+}
