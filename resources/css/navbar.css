@@ -1,0 +1,21 @@
+.nav{
+    height: auto;
+}
+
+.nav__wrapper{
+    height: 4vw;
+}
+
+.nav__flexContainer{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__option{
+    color: white;
+    font-size:0.7em;
+    padding: 8.5px;
+    text-decoration: none;
+}
