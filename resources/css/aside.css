@@ -3,26 +3,21 @@
     font-size: 0.84em;
 }
 
-.aside__filters{
-
-}
-
-.aside__ul{
+.category__ul{
     list-style-type: none;
     padding: 7%;
 }
 
-
-.aside__nestedLi{
+.category__nestedLi{
     list-style-type: none;
 }
 
-.aside__liItem{
+.category__liItem{
     color: black;
     text-decoration: none;
 }
 
-.aside__liSubItem{
+.category__liSubItem{
     color: rgb(175, 133, 26);
     text-decoration: none;
     padding-left: 5%;
@@ -35,4 +30,24 @@
     background-clip: content-box;
     font-size: 0.84em;
     padding-top: 5.5%;
+}
+
+.filters__h3{
+    padding-top: 7%;
+    padding-left: 7%;
+    color: rgb(175, 133, 26);
+}
+
+.filters__h4{
+    padding-top: 3%;
+    padding-left: 7%;
+}
+
+.filters__ul{
+    padding: 7%;
+    padding-top: 3%;
+}
+
+.filters__liItem{
+    color: rgb(175, 133, 26);
 }
