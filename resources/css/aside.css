@@ -43,6 +43,16 @@
     padding-left: 7%;
 }
 
+.filters__li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.filters__nestedLi{
+    text-decoration: none;
+    list-style-type: none;
+}
+
 .filters__ul{
     padding: 7%;
     padding-top: 3%;
