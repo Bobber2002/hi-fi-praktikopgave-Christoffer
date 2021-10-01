@@ -1,0 +1,38 @@
+.aside__category{
+    background: gainsboro;
+    font-size: 0.84em;
+}
+
+.aside__filters{
+
+}
+
+.aside__ul{
+    list-style-type: none;
+    padding: 7%;
+}
+
+
+.aside__nestedLi{
+    list-style-type: none;
+}
+
+.aside__liItem{
+    color: black;
+    text-decoration: none;
+}
+
+.aside__liSubItem{
+    color: rgb(175, 133, 26);
+    text-decoration: none;
+    padding-left: 5%;
+}
+
+
+
+.aside__filters{
+    background: gainsboro;
+    background-clip: content-box;
+    font-size: 0.84em;
+    padding-top: 5.5%;
+}
