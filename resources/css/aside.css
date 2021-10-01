@@ -59,5 +59,6 @@
 }
 
 .filters__liItem{
+    text-decoration: none;
     color: rgb(175, 133, 26);
 }
