@@ -32,3 +32,31 @@
 .mainBlockContent__h2{
     font-size: 1.2em;
 }
+
+
+.mainBlockContent__filters{
+    background: lightgray;
+    height: 10%;
+    width: 100%;
+    padding: 1%;
+}
+
+.mainBlockFilters__flexContainer{
+    background: lightgreen;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.mainBlockFilters__left{
+    background: lightpink;
+    height: 100%;
+    width: auto;
+}
+
+.mainBlockFilters__right{
+    background: lightpink;
+    height: 100%;
+    width: auto;
+}
