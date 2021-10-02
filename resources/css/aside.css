@@ -34,6 +34,7 @@
 
 .filters__h3{
     padding-top: 7%;
+    padding-bottom: 2%;
     padding-left: 7%;
     color: rgb(175, 133, 26);
 }
@@ -41,6 +42,13 @@
 .filters__h4{
     padding-top: 3%;
     padding-left: 7%;
+    font-family: 'Museo Sans Rounded 900';
+}
+
+.filters__h5{
+    font-family: 'Museo Sans Rounded 900';
+    padding-bottom: 3%;
+    padding-top: 4%;
 }
 
 .filters__li{
@@ -61,4 +69,9 @@
 .filters__liItem{
     text-decoration: none;
     color: rgb(175, 133, 26);
+    display: flex;
 }
+
+.filters__itemCount{
+    padding-left: 1.5%;
+}   
