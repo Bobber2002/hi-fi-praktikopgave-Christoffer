@@ -38,25 +38,45 @@
     background: lightgray;
     height: 10%;
     width: 100%;
-    padding: 1%;
+    padding: 1.5%;
 }
 
 .mainBlockFilters__flexContainer{
-    background: lightgreen;
     display: flex;
     height: 100%;
     width: 100%;
     justify-content: space-between;
+    font-family: 'Museo Sans Rounded 300';
+    font-size: 0.8em;
+
 }
 
 .mainBlockFilters__left{
-    background: lightpink;
+    height: 100%;
+    width: 45%;
+}
+
+.mainBlockFilters__right{
     height: 100%;
     width: auto;
 }
 
-.mainBlockFilters__right{
-    background: lightpink;
+.mainBlockFilters__sortBy{
+    display: flex;
+    align-items: center;
+}
+
+.mainBlockFilters__sortBySpan{
+    padding-right: 2%;
+}
+
+.mainBlockFilters__arrowUp{
+    padding-left: 2%;
+    color: rgb(97, 97, 97);
+}
+
+.mainBlockFilters__viewAs{
+    display: flex;
     height: 100%;
-    width: auto;
+    align-items: center;
 }
