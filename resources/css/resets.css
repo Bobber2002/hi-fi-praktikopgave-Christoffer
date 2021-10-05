@@ -4,7 +4,5 @@
     box-sizing: border-box;
 }
 body, html{
-    width: 100%;
-    height: 100%;
     font-family: 'Museo Sans Rounded 100';
 }

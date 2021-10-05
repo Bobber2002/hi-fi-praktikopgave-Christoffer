@@ -11,6 +11,13 @@ fetch('resources/json/productData.json')
         function appendData(data) {
             var mainContainer = document.getElementById("itemList");
             for (var i = 0; i < data.length; i++) {
+            var inStock = true;
+
+            if(data[i].inStock == false){
+                inStock = false;
+            }else{
+                inStock = true;
+            }    
 
                 var item = document.createElement("div");
                 mainContainer.appendChild(item);
@@ -20,8 +27,16 @@ fetch('resources/json/productData.json')
                 item.appendChild(itemFlex);
                 itemFlex.className = "item__flexContainer";
 
+                var itemImgDiv = document.createElement("div");
+                itemFlex.appendChild(itemImgDiv);
+                itemImgDiv.className="item__imgDiv"
+
+                var itemImgA = document.createElement("a");
+                itemImgDiv.appendChild(itemImgA);
+                itemImgA.className="item__imgA";
+
                 var itemImg = document.createElement("img");
-                itemFlex.appendChild(itemImg);
+                itemImgDiv.appendChild(itemImg);
                 itemImg.className="item__img";
                 itemImg.src = data[i].img;
 
@@ -44,20 +59,20 @@ fetch('resources/json/productData.json')
                 currentPriceP.className = "item__currentPrice";
                 currentPriceP.innerHTML = data[i].currentPrice;
 
-                var addToCartA = document.createElement("a");
-                itemFlex.appendChild(addToCartA);
-                addToCartA.className="item__addToCart";
-
-                var addToCartDiv = document.createElement("div");
-                addToCartA.appendChild(addToCartDiv);
-                addToCartDiv.className="addToCart__div"
-
-                var addToCartP = document.createElement("p");
-                addToCartDiv.appendChild(addToCartP);
-                addToCartP.className = "addToCart__p";
-                addToCartP.innerHTML = "ADD TO CART";
-
-
+                if(inStock){
+                    var addToCartA = document.createElement("a");
+                    itemFlex.appendChild(addToCartA);
+                    addToCartA.className="item__addToCart";
+    
+                    var addToCartDiv = document.createElement("div");
+                    addToCartA.appendChild(addToCartDiv);
+                    addToCartDiv.className="addToCart__div"
+    
+                    var addToCartP = document.createElement("p");
+                    addToCartDiv.appendChild(addToCartP);
+                    addToCartP.className = "addToCart__p";
+                    addToCartP.innerHTML = "ADD TO CART";
+                }
                 
             }
         }

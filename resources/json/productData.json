@@ -13,7 +13,7 @@
         "onDiscount": true,
         "currentPrice": "£329.00",
         "beforeDiscountPrice": "£429.00",
-        "inStock": true
+        "inStock": false
     },
     {
         "name": "gerta",
@@ -34,10 +34,10 @@
     {
         "name": "YAMAHA R-N402 NETWORK HIFI RECEIVER",
         "img":  "resources/images/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg",
-        "onDiscount": true,
+        "onDiscount": false,
         "currentPrice": "£329.00",
         "beforeDiscountPrice": "£429.00",
-        "inStock": true
+        "inStock": false
     },
     {
         "name": "YAMAHA R-N402 NETWORK HIFI RECEIVER",
@@ -45,6 +45,6 @@
         "onDiscount": true,
         "currentPrice": "£329.00",
         "beforeDiscountPrice": "£429.00",
-        "inStock": true
+        "inStock": false
     }
 ]
