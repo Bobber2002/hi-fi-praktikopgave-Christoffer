@@ -1,0 +1,56 @@
+{
+    "product1":
+    {
+        "name": "YAMAHA R-N402 NETWORK HIFI RECEIVER",
+        "img":  "/images/forforstaerkere/parasound_classic7100.jpg",
+        "onDiscount": true,
+        "currentPrice": "£329.00",
+        "beforeDiscountPrice": "£429.00",
+        "inStock": true
+    },
+    "product2":
+    {
+        "name": "YAMAHA R-N402 NETWORK HIFI RECEIVER",
+        "img":  "/images/forforstaerkere/parasound_classic7100.jpg",
+        "onDiscount": true,
+        "currentPrice": "£329.00",
+        "beforeDiscountPrice": "£429.00",
+        "inStock": true
+    },
+    "product3":
+    {
+        "name": "YAMAHA R-N402 NETWORK HIFI RECEIVER",
+        "img":  "/images/forforstaerkere/parasound_classic7100.jpg",
+        "onDiscount": true,
+        "currentPrice": "£329.00",
+        "beforeDiscountPrice": "£429.00",
+        "inStock": true
+    },
+    "product4":
+    {
+        "name": "YAMAHA R-N402 NETWORK HIFI RECEIVER",
+        "img":  "/images/forforstaerkere/parasound_classic7100.jpg",
+        "onDiscount": true,
+        "currentPrice": "£329.00",
+        "beforeDiscountPrice": "£429.00",
+        "inStock": true
+    },
+    "product5":
+    {
+        "name": "YAMAHA R-N402 NETWORK HIFI RECEIVER",
+        "img":  "/images/forforstaerkere/parasound_classic7100.jpg",
+        "onDiscount": true,
+        "currentPrice": "£329.00",
+        "beforeDiscountPrice": "£429.00",
+        "inStock": true
+    },
+    "product6":
+    {
+        "name": "YAMAHA R-N402 NETWORK HIFI RECEIVER",
+        "img":  "/images/forforstaerkere/parasound_classic7100.jpg",
+        "onDiscount": true,
+        "currentPrice": "£329.00",
+        "beforeDiscountPrice": "£429.00",
+        "inStock": true
+    }
+}

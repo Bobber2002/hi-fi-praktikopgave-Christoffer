@@ -1,0 +1,77 @@
+.aside__category{
+    background: gainsboro;
+    font-size: 0.84em;
+}
+
+.category__ul{
+    list-style-type: none;
+    padding: 7%;
+}
+
+.category__nestedLi{
+    list-style-type: none;
+}
+
+.category__liItem{
+    color: black;
+    text-decoration: none;
+}
+
+.category__liSubItem{
+    color: rgb(175, 133, 26);
+    text-decoration: none;
+    padding-left: 5%;
+}
+
+
+
+.aside__filters{
+    background: gainsboro;
+    background-clip: content-box;
+    font-size: 0.84em;
+    padding-top: 5.5%;
+}
+
+.filters__h3{
+    padding-top: 7%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    color: rgb(175, 133, 26);
+}
+
+.filters__h4{
+    padding-top: 3%;
+    padding-left: 7%;
+    font-family: 'Museo Sans Rounded 900';
+}
+
+.filters__h5{
+    font-family: 'Museo Sans Rounded 900';
+    padding-bottom: 3%;
+    padding-top: 4%;
+}
+
+.filters__li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.filters__nestedLi{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.filters__ul{
+    padding: 7%;
+    padding-top: 3%;
+}
+
+.filters__liItem{
+    text-decoration: none;
+    color: rgb(175, 133, 26);
+    display: flex;
+}
+
+.filters__itemCount{
+    padding-left: 1.5%;
+}   

@@ -1,0 +1,187 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="resources/css/all.min.css">
+        <link rel="stylesheet" href="resources/css/resets.css">
+        <link rel="stylesheet" href="resources/css/backgroundWrapper.css">
+        <link rel="stylesheet" href="resources/css/header.css">
+        <link rel="stylesheet" href="resources/css/navbar.css">
+        <link rel="stylesheet" href="resources/css/main.css">
+        <link rel="stylesheet" href="resources/css/aside.css">
+        <link rel="stylesheet" href="resources/css/mainBlock.css">
+        <link rel="stylesheet" href="resources/css/itemList.css">
+        <link rel="stylesheet" href="resources/webfonts/style.css">
+        <title>Products</title>
+    </head>
+    <body>
+        <div class="backgroundWrapper">
+            <div class="headerWrapper">
+                <header class="header">
+                    <div class="header__logo">
+                        <img class="header__img" src="resources/images/logo.png" alt="">
+                    </div>
+                    <div class="header__functionalities">
+                        <div class="header__searchbar">
+                            <input class="header__input" type="text" placeholder="Search entire store here...">
+                            <i class="fas fa-search header__searchIcon"></i>
+                        </div>
+                        <div class="header__userAndCart">
+                            <div class="header__user">
+                                <i class="header__userIcon fas fa-user"></i>
+                                <p class="header__userP">ACCOUNT</p>
+                            </div>
+                            <div class="header__cart">
+                                <i class="header__cartIcon fas fa-shopping-cart"></i>
+                                <p class="header__cartP">CART</p>
+                            </div>
+                            <div class="header__aHolder">
+                                <a class="header__aIcon" href="">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </a>
+                                <a class="header__aIcon" href="">
+                                    <i class="fas fa-phone-alt"></i>
+                                </a>
+                                <a class="header__aIcon" href="">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <nav class="nav">
+                <div class="nav__wrapper">
+                    <div class="nav__flexContainer">
+                        <a class="nav__option" href="#">HOME</a>
+                        <a class="nav__option" href="#">ABOUT US</a>
+                        <a class="nav__option" href="#">BRANDS</a>
+                        <a class="nav__option" href="#">NEWS</a>
+                        <a class="nav__option" href="#">EVENTS</a>
+                        <a class="nav__option" href="#">SHOP</a>
+                        <a class="nav__option" href="#">CONTACT US</a>
+                    </div>
+                </div>
+            </nav>
+            <main class="main">
+                <div class="main__wrapper">
+                    <div class="main__flexContainer">
+                        <div class="main__block">
+                            <div class="mainBlock__breadcrumb">
+                                <p class="breadcrumb__crumb">Home</p>
+                                <p class="breadcrumb__crumb">/</p>
+                                <p class="breadcrumb__crumb">Amplifiers</p>
+                            </div>
+                            <div class="mainBlock__content">
+                                <aside class="mainBlockContent__aside">
+                                    <div class="aside__category">
+                                        <ul class="category__ul">
+                                            <li class="category__li">
+                                                <a class="category__liItem" href="#">Amplifiers</a>
+                                                <ul class="category__nestedUl">
+                                                    <li class="category__nestedLi">
+                                                        <a class="category__liSubItem" href="#">
+                                                            Intergrated Amplifiers
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="aside__filters">
+                                        <h3 class="filters__h3">SHOP BY</h3>
+                                        <h4 class="filters__h4">Filter</h4>
+                                        <ul class="filters__ul">
+                                            <li class="filters__li">
+                                                <h5 class="filters__h5">PRICE</h5>
+                                                <ul class="filters__nestedUl">
+                                                    <li class="filters__nestedLi">
+                                                        <a class="filters__liItem" href="#">
+                                                            £0.00 - £799.99
+                                                            <p class="filters__itemCount">(3)</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <h5 class="filters__h5">MANUFACTURER</h5>
+                                                <ul class="filters__nestedUl">
+                                                    <li class="filters__nestedLi">
+                                                        <a class="filters__liItem" href="#">
+                                                            Arcarn
+                                                            <p class="filters__itemCount">(3)</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </aside>
+                                <div class="mainBlockContent__content">
+                                    <h2 class="mainBlockContent__h2">
+                                        AMPLIFIERS
+                                    </h2>
+                                    <div class="mainBlockContent__filters">
+                                        <div class="mainBlockFilters__flexContainer">
+                                            <div class="mainBlockFilters__left">
+                                                <div class="mainBlockFilters__sortBy">
+                                                    <span class="mainBlockFilters__sortBySpan">SORT BY:</span>
+                                                    <select name="sortBy" id="sortBy__select">
+                                                        <option value="priceDesc">Lowest price</option>
+                                                        <option value="priceAsc">Highest price</option>
+                                                        <option value="Name">Name</option>
+                                                        <option value="Manufacturer">Manufacturer</option>
+                                                    </select>
+                                                    <i class="mainBlockFilters__arrowUp fas fa-long-arrow-alt-up"></i>
+                                                </div>
+                                                <div class="mainBlockFilters__viewAs">
+                                                    <span class="mainBlockFilters__viewAsSpan"> VIEW AS:</span>
+                                                    <i class="fas fa-th-large"></i>
+                                                    <i class="fas fa-grip-lines"></i>
+                                                </div>
+                                            </div>
+                                            <div class="mainBlockFilters__right">
+                                                <div class="mainBlockFilters__itemCount"></div>
+                                                <div class="mainBlockFilters__showAmount"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mainBlockContent__itemList">
+                                        <div class="itemList">
+                                            <div class="itemList__item">
+                                                <div class="item__flexContainer">
+                                                    <img class="item__img" src="https://via.placeholder.com/150/FFFFFF" alt="">
+                                                    <p class="item__name">
+                                                        YAMAHA R-N402 NETWORK HIFI RECEIVER
+                                                    </p>
+                                                    <div class="item__price">
+                                                        <p class="item__beforeDiscountPrice">
+                                                            £429.00
+                                                        </p>
+                                                        <p class="item__currentPrice">
+                                                            £329.00
+                                                        </p>
+                                                    </div>
+                                                    <a class="item__addToCart" href="">
+                                                        <div class="addToCart__div">
+                                                            <p addToCart__p>
+                                                                ADD TO CART
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <section class="mainBlockContent__section">
+                                    
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>  
+        </div>
+    </body>
+    </html>

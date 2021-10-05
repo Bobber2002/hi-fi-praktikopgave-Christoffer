@@ -1,0 +1,87 @@
+.mainBlock__breadcrumb{
+    display: flex;
+}
+
+.breadcrumb__crumb{
+    padding-left: 0.75%;
+}
+
+.mainBlock__content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 96.5%;
+    padding-top: 0.75%;
+}
+
+.mainBlockContent__aside{
+    height: 100%;
+    width: 24%;
+}
+
+.mainBlockContent__content{
+    height: 100%;
+    width: 50%;
+}
+
+.mainBlockContent__section{
+    height: 100%;
+    width: 24%;
+}
+
+.mainBlockContent__h2{
+    font-size: 1.2em;
+}
+
+
+.mainBlockContent__filters{
+    background: lightgray;
+    height: 10%;
+    width: 100%;
+    padding: 1.5%;
+}
+
+.mainBlockFilters__flexContainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Museo Sans Rounded 300';
+    font-size: 0.8em;
+
+}
+
+.mainBlockFilters__left{
+    height: 100%;
+    width: 45%;
+}
+
+.mainBlockFilters__right{
+    height: 100%;
+    width: auto;
+}
+
+.mainBlockFilters__sortBy{
+    display: flex;
+    align-items: center;
+}
+
+.mainBlockFilters__sortBySpan{
+    padding-right: 2%;
+}
+
+.mainBlockFilters__arrowUp{
+    padding-left: 2%;
+    color: rgb(97, 97, 97);
+}
+
+.mainBlockFilters__viewAs{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.mainBlockContent__itemList{
+    height: 80%;
+    width: 100%;
+}
