@@ -17,6 +17,7 @@
 }
 
 .itemList__item{
+    background: chartreuse;
     background-clip: content-box;
     width: 25%;
     padding: 1%;
