@@ -2,47 +2,47 @@
     {
         "name": "YAMAHA R-N402 NETWORK HIFI RECEIVER",
         "img":  "resources/images/forforstaerkere/parasound_classic7100.jpg",
-        "onDiscount": true,
-        "currentPrice": "£329.00",
-        "beforeDiscountPrice": "£429.00",
-        "inStock": true
-    },
-    {
-        "name": "peter",
-        "img":  "resources/images/forforstaerkere/parasound_classic7100.jpg",
-        "onDiscount": true,
-        "currentPrice": "£329.00",
-        "beforeDiscountPrice": "£429.00",
-        "inStock": false
-    },
-    {
-        "name": "gerta",
-        "img":  "resources/images/forforstaerkere/parasound_classic7100.jpg",
-        "onDiscount": true,
-        "currentPrice": "£329.00",
-        "beforeDiscountPrice": "£429.00",
-        "inStock": true
-    },
-    {
-        "name": "susan",
-        "img":  "resources/images/forforstaerkere/parasound_classic7100.jpg",
-        "onDiscount": true,
-        "currentPrice": "£329.00",
-        "beforeDiscountPrice": "£429.00",
-        "inStock": true
-    },
-    {
-        "name": "YAMAHA R-N402 NETWORK HIFI RECEIVER",
-        "img":  "resources/images/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg",
         "onDiscount": false,
         "currentPrice": "£329.00",
         "beforeDiscountPrice": "£429.00",
         "inStock": false
     },
     {
-        "name": "YAMAHA R-N402 NETWORK HIFI RECEIVER",
+        "name": "Marantz PM6007",
         "img":  "resources/images/forforstaerkere/parasound_classic7100.jpg",
         "onDiscount": true,
+        "currentPrice": "£329.00",
+        "beforeDiscountPrice": "£429.00",
+        "inStock": false
+    },
+    {
+        "name": "Cambridge Audio CXA81",
+        "img":  "resources/images/forforstaerkere/parasound_classic7100.jpg",
+        "onDiscount": false,
+        "currentPrice": "£329.00",
+        "beforeDiscountPrice": "£429.00",
+        "inStock": true
+    },
+    {
+        "name": "Rega io",
+        "img":  "resources/images/forforstaerkere/parasound_classic7100.jpg",
+        "onDiscount": true,
+        "currentPrice": "£329.00",
+        "beforeDiscountPrice": "£429.00",
+        "inStock": true
+    },
+    {
+        "name": "Naim Nait XS 3",
+        "img":  "resources/images/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg",
+        "onDiscount": false,
+        "currentPrice": "£329.00",
+        "beforeDiscountPrice": "£429.00",
+        "inStock": true
+    },
+    {
+        "name": "Cambridge Audio CXA61",
+        "img":  "resources/images/forforstaerkere/parasound_classic7100.jpg",
+        "onDiscount": false,
         "currentPrice": "£329.00",
         "beforeDiscountPrice": "£429.00",
         "inStock": false
