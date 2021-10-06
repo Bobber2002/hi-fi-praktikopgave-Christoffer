@@ -19,6 +19,15 @@ fetch('resources/json/productData.json')
                 inStock = true;
             }    
 
+            
+            var onDiscount = false;
+
+            if(data[i].onDiscount == false){
+                onDiscount = true;
+            }else{
+                onDiscount = false;
+            } 
+
                 var item = document.createElement("div");
                 mainContainer.appendChild(item);
                 item.className = "itemList__item";
@@ -49,10 +58,13 @@ fetch('resources/json/productData.json')
                 itemFlex.appendChild(priceDiv);
                 priceDiv.className = "item__price";
 
-                var beforeDiscountPriceP = document.createElement("p");
-                priceDiv.appendChild(beforeDiscountPriceP);
-                beforeDiscountPriceP.className = "item__beforeDiscountPrice";
-                beforeDiscountPriceP.innerHTML = data[i].beforeDiscountPrice;
+                if(onDiscount == false){
+                    var beforeDiscountPriceP = document.createElement("p");
+                    priceDiv.appendChild(beforeDiscountPriceP);
+                    beforeDiscountPriceP.className = "item__beforeDiscountPrice";
+                    beforeDiscountPriceP.innerHTML = data[i].beforeDiscountPrice;
+                }
+
 
                 var currentPriceP = document.createElement("p");
                 priceDiv.appendChild(currentPriceP);
